@@ -15,6 +15,7 @@
 		58AC8D3D253D873F00932D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AC8D3B253D873F00932D2D /* LaunchScreen.storyboard */; };
 		58AC8D48253D874000932D2D /* DemoGitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC8D47253D874000932D2D /* DemoGitHubTests.swift */; };
 		58AC8D53253D874000932D2D /* DemoGitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC8D52253D874000932D2D /* DemoGitHubUITests.swift */; };
+		58AC8D61253DB34400932D2D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC8D60253DB34400932D2D /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		58AC8D4E253D874000932D2D /* DemoGitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AC8D52253D874000932D2D /* DemoGitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGitHubUITests.swift; sourceTree = "<group>"; };
 		58AC8D54253D874000932D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AC8D60253DB34400932D2D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				58AC8D30253D873300932D2D /* AppDelegate.swift */,
 				58AC8D32253D873300932D2D /* SceneDelegate.swift */,
 				58AC8D34253D873300932D2D /* ViewController.swift */,
+				58AC8D60253DB34400932D2D /* HomeVC.swift */,
 				58AC8D36253D873300932D2D /* Main.storyboard */,
 				58AC8D39253D873F00932D2D /* Assets.xcassets */,
 				58AC8D3B253D873F00932D2D /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58AC8D35253D873300932D2D /* ViewController.swift in Sources */,
+				58AC8D61253DB34400932D2D /* HomeVC.swift in Sources */,
 				58AC8D31253D873300932D2D /* AppDelegate.swift in Sources */,
 				58AC8D33253D873300932D2D /* SceneDelegate.swift in Sources */,
 			);
