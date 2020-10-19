@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         print("Hello vikramarka, you done great job. Keep it up and go well futher life.")
+        
+        let elements = ["One","Two","Three","Four","Six"]
+        
+        print(elements)
     }
 
 
