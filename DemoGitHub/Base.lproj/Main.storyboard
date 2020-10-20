@@ -14,14 +14,24 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BW-1n-OzR">
+                                <rect key="frame" x="175" y="433" width="64" height="30"/>
+                                <state key="normal" title="Welcome"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1BW-1n-OzR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V0C-BZ-JDt"/>
+                            <constraint firstItem="1BW-1n-OzR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jIV-Sd-Sso"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="cWQ-2p-ogH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1050.7246376811595" y="116.51785714285714"/>
+            <point key="canvasLocation" x="793" y="140"/>
         </scene>
         <!--HomeVC-->
         <scene sceneID="8YI-iV-xba">

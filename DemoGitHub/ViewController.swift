@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         let elements = ["One","Two","Three","Four","Six"]
         
         print(elements)
+        
+        print("Hello every one")
     }
 
 
