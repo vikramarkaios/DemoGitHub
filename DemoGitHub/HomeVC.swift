@@ -14,6 +14,8 @@ class HomeVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        print("Hello whatsapp guy's. I hope all are well to live there life's")
     }
     
 
